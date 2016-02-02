@@ -46,7 +46,8 @@
 /* Topbar Navigation */
 
 body {
-  marging-top: 2rem; }
+  // margin-top: 2rem; 
+}
 
 .title-bar {
   background: #333;
@@ -89,3 +90,11 @@ body {
   border-color: transparent #fff transparent transparent; }
 
 /* */
+/* Footer */
+
+#footer {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1em;
+}
