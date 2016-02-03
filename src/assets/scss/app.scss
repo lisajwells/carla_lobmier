@@ -72,6 +72,9 @@ figure.painting {
 .top-bar li a {
 	border-right: 1px solid $dark-gray;
 }
+.top-bar-right ul.dropdown.menu li:last-of-type a {
+	border-right: none;
+}
 
 .is-dropdown-submenu-parent.is-down-arrow > a::after {
 	border-color: $dark-gray transparent transparent;
