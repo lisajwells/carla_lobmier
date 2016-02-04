@@ -88,7 +88,8 @@ http://www.jqueryscript.net/menu/Responsive-Flat-Dropdown-Menu-with-jQuery-CSS3.
 
 nav {
   display: block;
-  background: #E95546;
+  background: $black;
+  float:right;
 }
 
 .menu { display: block; }
@@ -123,7 +124,7 @@ nav {
   padding: 0;
   width: 170px;
   position: absolute;
-  left: 0px;
+  right: 0px;
   background: #fff;
   z-index: 99;
   transform: translate(0, 20px);
@@ -132,7 +133,7 @@ nav {
 
 .menu ul:after {
   bottom: 100%;
-  left: 20%;
+  right: 20%;
   border: solid transparent;
   content: " ";
   height: 0;
@@ -219,7 +220,7 @@ nav {
   text-decoration: none;
 }
 
-a.homer { background: #FC6D58; }
+// a.homer { background: #FC6D58; } aka current
 
 @media (min-width: 768px) and (max-width: 979px) {
 
@@ -293,6 +294,14 @@ a.homer { background: #FC6D58; }
 
 
 /* Topbar Navigation */
+
+.site-title {
+	color:$white;
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    font-weight: bold;
+}
 
 // .title-bar,
 // .top-bar,
