@@ -74,8 +74,13 @@ figure.painting {
     vertical-align: middle;
 }
 
+.painting-info {
+	font-size: .9em;
+    margin: 1em auto;
+}
+
 .painting-title {
-    margin: 0 auto;
+    font-style: italic;
 }
 
 /* Topbar Navigation */
@@ -104,6 +109,15 @@ figure.painting {
 .dropdown.menu:not(.vertical) .is-dropdown-submenu.first-sub a {
 	border-right: none;
 }
+
+/* mobile nav */
+
+@include breakpoint(medium down) {
+	li.menu-text {
+		display: none;
+	}
+}
+
 /* */
 
 /* Footer */

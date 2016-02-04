@@ -41,6 +41,9 @@
 
 @import 'util/util';
 
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400italic,700,700italic);
+// 400=normal; 700=bold; 
+
 // 1. Global
 // ---------
 
@@ -58,9 +61,9 @@ $dark-gray: #8a8a8a;
 $darker-gray: #717171;
 $black: #0a0a0a;
 $white: #fefefe;
-$body-background: $medium-gray;
+$body-background: $black;
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Merriweather Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;

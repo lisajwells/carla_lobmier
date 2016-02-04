@@ -121,7 +121,7 @@ gulp.task('sass', function() {
     .pipe($.autoprefixer({
       browsers: COMPATIBILITY
     }))
-    // .pipe(uncss)
+    // .pipe(uncss) --*overenthusiastic and loses some wanted css
     .pipe(minifycss)
     .pipe($.if(!isProduction, $.sourcemaps.write()))
     .pipe(gulp.dest('dist/assets/css'))
