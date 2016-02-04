@@ -76,18 +76,24 @@ nav {
   color: $black;
   background: $medium-gray;
 }
+
+li a.parent-menu {
+    padding-right: 25px;
+}
+
 a.parent-menu::after {
-content: '';
+    content: '';
     display: block;
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #2199e8 transparent transparent;
+    border-color: $medium-gray transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     position: absolute;
-    top: 0.825rem;
-    right: 5px;
+    top: 1.5rem;
+    right: 0px;
+    margin-right: 10px;
   }
 
 .menu ul li a:hover,
