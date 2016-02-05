@@ -25,7 +25,7 @@ var PATHS = {
   sass: [
     'bower_components/foundation-sites/scss',
     'bower_components/motion-ui/src/',
-    'bower_components/magnific-popup/src/css'
+    // 'bower_components/magnific-popup/src/css'
   ],
   javascript: [
     'bower_components/jquery/dist/jquery.js',
@@ -53,7 +53,7 @@ var PATHS = {
     'bower_components/foundation-sites/js/foundation.toggler.js',
     'bower_components/foundation-sites/js/foundation.tooltip.js',
     'bower_components/jquery_lazyload/jquery.lazyload.js',
-    'bower_components/magnific-popup/dist/jquery.magnific-popup.js',
+    // 'bower_components/magnific-popup/dist/jquery.magnific-popup.js',
     'src/assets/js/**/!(app).js',
     'src/assets/js/app.js'
   ]

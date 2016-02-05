@@ -4,6 +4,7 @@
 @import 'foundation';
 @import 'motion-ui';
 @import 'magnific-main';
+@import 'jquery.fancybox'
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -12,10 +13,10 @@
 @include foundation-forms;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-@include foundation-accordion;
-@include foundation-accordion-menu;
-@include foundation-badge;
-@include foundation-breadcrumbs;
+// @include foundation-accordion;
+// @include foundation-accordion-menu;
+// @include foundation-badge;
+// @include foundation-breadcrumbs;
 @include foundation-button-group;
 // @include foundation-callout;
 @include foundation-close-button;
@@ -27,8 +28,8 @@
 @include foundation-media-object;
 @include foundation-menu;
 @include foundation-off-canvas;
-@include foundation-orbit;
-@include foundation-pagination;
+// @include foundation-orbit;
+// @include foundation-pagination;
 // @include foundation-progress-bar;
 // @include foundation-slider;
 @include foundation-sticky;
@@ -136,7 +137,11 @@ a.open-gallery-link:hover {
 	color:$secondary-color;
 }
 
-/* */
+/* FancyBox */
+
+.hidden {
+    display: none;
+}
 
 /* Footer */
 
@@ -159,17 +164,4 @@ a.open-gallery-link:hover {
 	padding: 1rem;
 }
 
-.slide {
-  background: $black;
-  margin: 0 auto;
-  position: relative;
-  max-width: 900px;
-  max-height: 600px;
-  text-align: center;
-}
 
-.slide img {
-  max-width: 900px;
-  max-height: 600px;
-
-}
