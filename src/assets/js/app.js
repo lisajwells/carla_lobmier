@@ -10,8 +10,11 @@ $(document).ready(function() {
 	    helpers : {
 	        overlay : {
 	            css : {
-	                'background' : 'rgba(58, 42, 45, 0.95)'
+	                'background' : 'rgba(10, 10, 10, 0.9)'
 	            }
+	        },
+	        title: {
+	            type: 'outside'
 	        }
 	    }
 	}); //end fancybox
