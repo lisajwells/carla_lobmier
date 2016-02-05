@@ -89,10 +89,22 @@ figure.painting {
     vertical-align: middle;
 }
 
-.painting-info {
+.painting-info,
+.open-gallery-link {
 	font-size: .9em;
     margin: 1em auto;
 }
+
+a.open-gallery-link {
+    margin-top: -.4rem;
+    display: block;
+    color: $medium-gray;
+}
+
+a.open-gallery-link:hover {
+	color:$secondary-color;
+}
+
 
 .painting-title {
     font-style: italic;
