@@ -3,6 +3,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'magnific-main';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -28,8 +29,8 @@
 @include foundation-off-canvas;
 @include foundation-orbit;
 @include foundation-pagination;
-@include foundation-progress-bar;
-@include foundation-slider;
+// @include foundation-progress-bar;
+// @include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;
 @include foundation-switch;
@@ -55,6 +56,20 @@
 
 .row {
     max-width: 58.125rem;
+}
+
+h1 {
+    color: #cacaca;
+    font-size: 1.3em;
+    text-align: center;
+    width: auto;
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+a:hover, a:focus {
+    color: $white;
 }
 
 figure.painting {
@@ -86,61 +101,28 @@ figure.painting {
 @import 'navigation';
 
 
-/* Topbar Navigation */
+/* Site Title */
 
 .site-title {
 	color:$white;
     position: absolute;
-    left: 1em;
-    top: 1em;
+    left: 0;
+    top: 0;
+    padding: 1.25em;
     font-weight: 700;
+
+    @include breakpoint(large) {
+    	padding-left: 5em;
+    }
 }
 
-// .title-bar,
-// .top-bar,
-// .top-bar li,
-// .top-bar li a {
-// 	background:$black;
-// 	color:$white;
+.site-title a {
+	color:$white;
+}
 
-// 		@include breakpoint(800px down) {
-// 		font-size: .95em;
-// 	}
-
-// }
-
-// .top-bar-right li {
-// 	@include breakpoint(small down) {
-// 		display:block;
-// 	}
-// }
-
-// .top-bar li a {
-// 	border-right: 1px solid $darker-gray;
-// }
-// .top-bar-right ul.dropdown.menu li:last-of-type a {
-// 	border-right: none;
-// }
-
-// .is-dropdown-submenu-parent.is-down-arrow > a::after {
-// 	border-color: $dark-gray transparent transparent;
-// 	    margin-right: .2em;
-// }
-// .dropdown.menu:not(.vertical) .is-dropdown-submenu.first-sub {
-// 	border: none;
-// }
-// .dropdown.menu:not(.vertical) .is-dropdown-submenu.first-sub a {
-// 	border-right: none;
-// }
-
-/* mobile nav */
-
-// li.menu-text {
-// 	@include breakpoint(small down) {
-// 		display: none;
-// 	}
-// }
-
+.site-title a:hover {
+	color:$secondary-color;
+}
 
 /* */
 
@@ -159,8 +141,23 @@ figure.painting {
 
 #footer {
 	background: $black;
-	border-top: 1px solid $darker-gray;
+	border-top: 1px solid #313131;
 	color: $white;
 	text-align: center;
 	padding: 1rem;
+}
+
+.slide {
+  background: $black;
+  margin: 0 auto;
+  position: relative;
+  max-width: 900px;
+  max-height: 600px;
+  text-align: center;
+}
+
+.slide img {
+  max-width: 900px;
+  max-height: 600px;
+
 }
