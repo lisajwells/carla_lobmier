@@ -8,12 +8,12 @@ $(document).ready(function() {
 
 	$(".fancybox").fancybox({
 		padding : 0,
-
-        openEffect  : 'none',
-        closeEffect : 'none',
-        nextEffect  : 'none',
-        prevEffect  : 'none',
-        padding     : 0,
+		nextClick   : true,
+		aspectRatio : true,
+        openEffect  : 'fade',
+        closeEffect : 'fade',
+        nextEffect  : 'fade',
+        prevEffect  : 'fade',
         margin      : [20, 60, 20, 60], // Increase left/right margin
 
 
@@ -27,7 +27,7 @@ $(document).ready(function() {
 	            type: 'outside',
 	            position: 'top'
 	        }
-	    }
+	    } // end helpers
 	}); //end fancybox
 
 
