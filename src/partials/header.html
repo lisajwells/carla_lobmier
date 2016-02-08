@@ -30,16 +30,30 @@
 
         <li><a href="{{root}}/bio.html">Bio</a></li>
 
-        <li><a data-open="exampleModal1">Contact</a></li>
+        <li><a data-open="contactModal">Contact</a></li>
 
     </ul>
 </nav>
 
-<div class="reveal" id="exampleModal1" data-reveal>
-    <h1>Awesome. I Have It.</h1>
-    <p class="lead">Your couch. It is mine.</p>
-    <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-    <button class="close-button" data-close aria-label="Close modal" type="button">
+<div class="small reveal" id="contactModal" data-reveal>
+    <form id="contact-form">
+        <p>Some text here about what you want</p>
+
+        <label>Name
+        <input type="text" placeholder="Name">
+        </label>
+
+        <label>Your email address
+        <input type="email" placeholder="youremail@example.com">
+        </label>
+
+        <label>Talk to me!
+        <textarea placeholder=""></textarea>
+        </label>
+
+        <a class="button" type="submit">Submit</a>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
-    </button>
+        </button>
+    </form>    
 </div>

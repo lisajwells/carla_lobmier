@@ -164,6 +164,21 @@ a.open-gallery-link:hover {
     left: -60px;
 }
 
+/* Contact Modal */
+
+.reveal,
+.reveal label {
+	color: $white;
+}
+
+.reveal .button[type="submit"] {
+	background-color: $secondary-color;
+	margin-top: 1em;
+}
+.reveal .button[type="submit"]:hover {
+	background-color: $black;
+}
+
 /* Footer */
 
 .wrapper {
