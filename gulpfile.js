@@ -20,7 +20,8 @@ var COMPATIBILITY = ['last 2 versions', 'ie >= 9'];
 var PATHS = {
   assets: [
     'src/assets/**/*',
-    '!src/assets/{img,js,scss}/**/*'
+    '!src/assets/{img,js,scss}/**/*',
+    '!src/assets/php/*.php~' // 37707-use-foundation-with-php-files
   ],
   sass: [
     'bower_components/foundation-sites/scss',
@@ -33,7 +34,7 @@ var PATHS = {
     'bower_components/foundation-sites/js/foundation.core.js',
     'bower_components/foundation-sites/js/foundation.util.*.js',
     // Paths to individual JS components defined below
-    // 'bower_components/foundation-sites/js/foundation.abide.js',
+    'bower_components/foundation-sites/js/foundation.abide.js',
     // 'bower_components/foundation-sites/js/foundation.accordion.js',
     // 'bower_components/foundation-sites/js/foundation.accordionMenu.js',
     'bower_components/foundation-sites/js/foundation.drilldown.js',

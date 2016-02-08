@@ -1,0 +1,17 @@
+
+IMPORTANT!
+
+By using any of the enclosed scripts, you agree that Nate Baldwin and mindpalette.com will not be held liable for any damages such use might cause.
+
+These form processing scripts were not designed to be an e-commerce solution and are not equipped to securely handle credit card numbers or any other sensitive or personal data. Such information should never be sent by normal email means.
+
+We do not guarantee against any lost communications, or against damages from your server being black-listed by misuse of the script (particularly when using the confirmation email options, which are not suggested) or from the scripts being hi-jacked or hacked by malicious parties.
+
+We make every effort to create software of the highest quality, however not every possible scenario can be guarded against.
+
+If you do not agree to these terms, please do not use our products.
+
+Thank you.
+
+Nate Baldwin
+mindpalette.com
