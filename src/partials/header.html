@@ -36,19 +36,19 @@
 </nav>
 
 <div class="small reveal" id="contactModal" data-reveal>
-    <form id="contact-form">
+    <form id="contact-form" action="../php/submitform.php" method="post">
         <p>Some text here about what you want</p>
 
         <label>Name
-        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Name" name="name">
         </label>
 
         <label>Your email address
-        <input type="email" placeholder="youremail@example.com">
+        <input type="email" placeholder="youremail@example.com" name="email">
         </label>
 
         <label>Talk to me!
-        <textarea placeholder=""></textarea>
+        <textarea placeholder="" name="messageBody"></textarea>
         </label>
 
         <a class="button" type="submit">Submit</a>
