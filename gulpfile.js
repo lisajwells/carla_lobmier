@@ -21,7 +21,8 @@ var PATHS = {
   assets: [
     'src/assets/**/*',
     '!src/assets/{img,js,scss}/**/*',
-    '!src/assets/php/*.php~' // 37707-use-foundation-with-php-files
+    'src/assets/php/*.php~', // 37707-use-foundation-with-php-files
+    'src/assets/audio/*.mp3' // 37707-use-foundation-with-php-files
   ],
   sass: [
     'bower_components/foundation-sites/scss',
