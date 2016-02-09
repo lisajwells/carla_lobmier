@@ -8,6 +8,7 @@ $(document).ready(function() {
 
 	$(".fancybox").fancybox({
 		padding : 0,
+		loop: false,
 		nextClick   : true,
 		aspectRatio : true,
         openEffect  : 'fade',
