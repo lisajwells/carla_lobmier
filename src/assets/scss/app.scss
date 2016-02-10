@@ -97,16 +97,19 @@ figure.painting {
     margin: 1em auto;
 }
 
+.page-wrap-white .painting-info {
+	color: $black
+}
+
 a.open-gallery-link {
     margin-top: -.4rem;
     display: block;
-    color: $medium-gray;
+    color: $secondary-color;
 }
 
 a.open-gallery-link:hover {
-	color:$secondary-color;
+	color:$medium-gray;
 }
-
 
 .painting-title {
     font-style: italic;
@@ -126,6 +129,8 @@ a.open-gallery-link:hover {
     top: 0;
     padding: 1.25em;
     font-weight: 700;
+    background-color: $black;
+    width: 100%;
 
     @include breakpoint(large) {
     	padding-left: 5em;

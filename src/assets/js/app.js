@@ -21,7 +21,7 @@ $(document).ready(function() {
 	    helpers : {
 	        overlay : {
 	            css : {
-	                'background' : 'rgba(10, 10, 10, 0.9)'
+	                'background' : 'rgba(10, 10, 10, 1)'
 	            }
 	        },
 	        title: {
