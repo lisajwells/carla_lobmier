@@ -20,10 +20,11 @@ $(document).ready(function() {
 
 	    helpers : {
 	        overlay : {
-	            css : {
-	                'background' : 'rgba(10, 10, 10, 1)'
-	            }
-	        },
+              css : {
+                  'background' : 'rgba(10, 10, 10, 0.5)',
+              },
+              locked: false
+          },
 	        title: {
 	            type: 'outside',
 	            position: 'top'
