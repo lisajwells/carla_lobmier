@@ -6,6 +6,10 @@ $(document).ready(function(){
     e.preventDefault();
     menu.slideToggle();
   });
+  $(touch).on('focus', function(e) {
+    e.preventDefault();
+    menu.slideToggle();
+  });
   
   $(window).resize(function(){
     var w = $(window).width();
