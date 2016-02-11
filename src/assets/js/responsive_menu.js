@@ -6,6 +6,11 @@ $(document).ready(function(){
     e.preventDefault();
     menu.slideToggle();
   });
+
+  // $(.parent-menu).on('click', function(e) {
+  //   e.preventDefault();
+  //   $(.menu li ul).css('visibility','visible');
+  // });
   
   $(window).resize(function(){
     var w = $(window).width();
