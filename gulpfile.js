@@ -22,12 +22,14 @@ var PATHS = {
     'src/assets/**/*',
     '!src/assets/{img,js,scss}/**/*',
     'src/assets/php/*.php~', // 37707-use-foundation-with-php-files
-    'src/assets/audio/*.mp3' // 37707-use-foundation-with-php-files
+    'src/assets/audio/*.mp3' // 
   ],
   sass: [
     'bower_components/foundation-sites/scss',
     'bower_components/motion-ui/src/',
-    // 'bower_components/magnific-popup/src/css'
+    // 'bower_components/magnific-popup/src/css',
+    'bower_components/smartmenus/src/css/',
+    'bower_components/smartmenus/src/css/sm-mint/'
   ],
   javascript: [
     'bower_components/jquery/dist/jquery.js',
@@ -46,8 +48,8 @@ var PATHS = {
     'bower_components/foundation-sites/js/foundation.magellan.js',
     'bower_components/foundation-sites/js/foundation.offcanvas.js',
     // 'bower_components/foundation-sites/js/foundation.orbit.js',
-    'bower_components/foundation-sites/js/foundation.responsiveMenu.js',
-    'bower_components/foundation-sites/js/foundation.responsiveToggle.js',
+    // 'bower_components/foundation-sites/js/foundation.responsiveMenu.js',
+    // 'bower_components/foundation-sites/js/foundation.responsiveToggle.js',
     'bower_components/foundation-sites/js/foundation.reveal.js',
     'bower_components/foundation-sites/js/foundation.slider.js',
     'bower_components/foundation-sites/js/foundation.sticky.js',
@@ -55,6 +57,7 @@ var PATHS = {
     'bower_components/foundation-sites/js/foundation.toggler.js',
     // 'bower_components/foundation-sites/js/foundation.tooltip.js',
     'bower_components/jquery_lazyload/jquery.lazyload.js',
+    'bower_components/smartmenus/dist/jquery.smartmenus.js',
     // 'bower_components/magnific-popup/dist/jquery.magnific-popup.js',
     'src/assets/js/**/!(app).js',
     'src/assets/js/app.js'

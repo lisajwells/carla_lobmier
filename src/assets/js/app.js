@@ -33,7 +33,13 @@ $(document).ready(function() {
 	}); //end fancybox
 
 
-
+	// SmartMenus jQuery init -->
+	$(function() {
+		$('#main-menu').smartmenus({
+			subMenusSubOffsetX: 6,
+			subMenusSubOffsetY: -8
+		});
+	});
 
 
 }); //end document ready
