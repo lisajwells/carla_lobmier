@@ -121,16 +121,16 @@ a.open-gallery-link:hover {
 
 // @import 'navigation';
 
-    @media (min-width: 768px) {
-        #main-nav {
-            line-height: 0;
-            text-align: right;
-        }
-        #main-menu {
-            display: inline-block;
-        }
+@media (min-width: 768px) {
+    
+    #main-nav {
+        line-height: 0;
+        text-align: right;
     }
-
+    #main-menu {
+        display: inline-block;
+    }
+}
 
 
 /* Site Title */
