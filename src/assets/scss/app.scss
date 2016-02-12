@@ -119,10 +119,9 @@ a.open-gallery-link:hover {
 
 /* Navigation */
 
-// @import 'navigation';
-
+/* desktop menu */
 @media (min-width: 768px) {
-    
+
     #main-nav {
         line-height: 0;
         text-align: right;
