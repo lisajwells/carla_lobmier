@@ -1,6 +1,8 @@
 #main-nav {
-	text-align: right;
+    font-family: 'Merriweather Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+	float: right;
     margin-top: 1em;
+    text-align: right;
 }
 
 /*** hamburger ***/
@@ -89,6 +91,7 @@
     color: $white;
 }
 
+
 /*** desktop menu ***/
 
 @media (min-width: 768px) {
@@ -101,6 +104,9 @@
     color: $white;
 }
 
+	#main-nav a.highlighted {
+		color: $black;
+	}
     #main-menu {
         display: inline-block;
     }
