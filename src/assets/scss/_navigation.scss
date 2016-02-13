@@ -115,6 +115,11 @@
 	#main-nav a.highlighted {
 		color: $black;
 	}
+
+    .sm-mint a.highlighted span.sub-arrow {
+    border-color: $black transparent transparent transparent;
+  }
+
     #main-menu {
         display: inline-block;
     }
