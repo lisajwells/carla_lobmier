@@ -1,3 +1,0 @@
-These utilities are to be used when you want to display the submitted form results (field names and values) on your custom redirect page using the "query" method. If you're using the standard "Thank You" confirmation in NateMail.php, or useing the preferred "include" redirect method, these utilities are not necessary.
-
-We have provided a version in normal JavaScript, and an Adobe GoLive action for your convenience.
