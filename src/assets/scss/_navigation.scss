@@ -81,10 +81,18 @@
 
 
 #main-nav ul {
-    background: $black;
+    background: $darker-gray;
     border-bottom: none;
     border-top: none;
     color: $white;
+}
+
+#main-nav ul li.top-level {
+	background: $black;
+}
+#main-nav ul a.top-level:hover,
+#main-nav ul a.highlighted {
+	background: $secondary-color;
 }
 
 #main-nav a {
@@ -110,5 +118,15 @@
     #main-menu {
         display: inline-block;
     }
+
+    .sm-mint a.highlighted {
+    	background-color: $secondary-color;
+    }
+}
+
+@media screen and (min-width: 64em) {
+#main-nav {
+    padding-right: 5em;
+}
 }
 
