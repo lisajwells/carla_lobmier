@@ -77,15 +77,23 @@ a:hover, a:focus {
 
 /* Paintings */
 
-div.painting {
-	height:auto;
+.painting-vert,
+.painting-horz {
     margin: 4rem auto 8rem;
-	max-width:100%;
-	text-align: center;
-	width:auto;
 }
 
-.painting img {
+.triptych .painting-vert,
+.triptych .painting-horz {
+    margin: 4rem auto 4rem;
+}
+
+.triptych-single-caption .painting-vert, 
+.triptych-single-caption .painting-horz {
+    margin: 4rem auto 0;
+}
+
+.painting-vert img, 
+.painting-horz img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
