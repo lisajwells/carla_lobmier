@@ -134,6 +134,10 @@ a.open-gallery-link:hover {
 
 @import 'navigation';
 
+ul#main-menu {
+    z-index: 7777; //so lightbox doesn't tuck under
+}
+
 
 /* Site Title */
 
@@ -192,6 +196,12 @@ audio {
 
 .fancybox-prev {
     left: -60px;
+}
+
+/* Video */
+
+.flex-video {
+    margin: 4em 0;
 }
 
 /* Contact Modal */
