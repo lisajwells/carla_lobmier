@@ -35,8 +35,8 @@
         // commented: manipulating the headers like this can also cause the email to be marked as spam by some email clients
         // $email_headers = "From: $name <$email>"; 
 
-        // Send the email.
-        if (mail($recipient, $subject, $email_content)) { //removd $email_headers
+        // Send the email. //removd $email_headers from mail params
+        if (mail($recipient, $subject, $email_content)) { 
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thanks for getting in touch.";
