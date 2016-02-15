@@ -105,7 +105,7 @@ $badIPs = array();
 // the following optional settings determine the confirmation message the visitors see after a successful submission -------------
 
 	// Thank you / confirmation title...
-	$confirmMsgTitle = "Thank You!";
+	$confirmMsgTitle = "Thanks for getting in touch.";
 	
 	// Thank you / confirmation message text...
 	// NOTE: do not change the "[message recipient]" text (though it can be moved)
