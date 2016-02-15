@@ -2,7 +2,6 @@
     // My modifications to mailer script from:
     // http://blog.teamtreehouse.com/create-ajax-contact-form
     // Added input sanitizing to prevent injection
-ini_set('display_errors',1);  error_reporting(E_ALL);
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -16,17 +15,6 @@ ini_set('display_errors',1);  error_reporting(E_ALL);
         } else {
           $mailinglistcheck = "no";
         }
-
-        // if(isset($_POST['formWheelchair']) && 
-        //     $_POST['formWheelchair'] == 'Yes') 
-        //     {
-        //     echo "Need wheelchair access.";
-        //     }
-        //     else
-        //     {
-        //     echo "Do not Need wheelchair access.";
-        // }
-
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
