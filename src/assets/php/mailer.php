@@ -2,6 +2,7 @@
     // My modifications to mailer script from:
     // http://blog.teamtreehouse.com/create-ajax-contact-form
     // Added input sanitizing to prevent injection
+ini_set('display_errors',1);  error_reporting(E_ALL);
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -10,6 +11,22 @@
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
+        if (isset($_POST['mailinglist'])) {
+          $mailinglistcheck = "yes";
+        } else {
+          $mailinglistcheck = "no";
+        }
+
+        // if(isset($_POST['formWheelchair']) && 
+        //     $_POST['formWheelchair'] == 'Yes') 
+        //     {
+        //     echo "Need wheelchair access.";
+        //     }
+        //     else
+        //     {
+        //     echo "Do not Need wheelchair access.";
+        // }
+
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -24,12 +41,14 @@
         $recipient = "lisawells999@gmail.com";
 
         // Set the email subject.
-        $subject = "New contact from $name";
+        $subject = "Website contact from $name";
 
         // Build the email content.
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Message:\n$message\n";
+        $email_content .= "Message:\n$message\n\n";
+        $email_content .= "Mailing List Request: $mailinglistcheck\n";
+
 
         // Build the email headers.
         // commented: manipulating the headers like this can also cause the email to be marked as spam by some email clients
