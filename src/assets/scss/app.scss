@@ -210,7 +210,10 @@ audio {
 
 #four-o-four-menu {
     margin: 0 auto;
-    width: 25%;
+}
+
+#four-o-four-menu li {
+    color: $secondary-color;
 }
 
 /* Footer */
