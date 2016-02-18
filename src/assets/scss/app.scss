@@ -53,7 +53,7 @@
 }
 
 h1 {
-    color: #cacaca;
+    color: $medium-gray;
     font-size: 1.3em;
     text-align: center;
     width: auto;
@@ -159,7 +159,11 @@ ul#main-menu {
 
 audio {
 	display: block;
-    margin: 0 auto 2em;
+    margin: 0 auto .5em;
+}
+
+.installation .painting-info {
+    margin-bottom: 3em;
 }
 
 /* FancyBox */
@@ -201,8 +205,8 @@ audio {
     margin-top: .5em
 }
 
-.bio p {
-    // float: left;
+.bio  {
+    margin-bottom: 5em
 }
 
 /* Contact Modal */
@@ -237,4 +241,10 @@ audio {
 	padding: 1rem;
 }
 
+#footer i {
+    color: $medium-gray;
+}
 
+#footer a:hover i {
+    color: $secondary-color;
+}
