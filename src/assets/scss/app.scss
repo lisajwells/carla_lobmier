@@ -48,16 +48,6 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-// .page-wrap-black {
-//     background: $black;
-//     color: $white;
-// }
-
-// .page-wrap-white {
-//     background: $white;
-//     color: $black;
-// }
-
 .row {
     max-width: 58.125rem;
 }
@@ -203,6 +193,16 @@ audio {
 
 .flex-video {
     margin: 4em 0;
+}
+
+/* Bio */
+
+#carla-img {
+    margin-top: .5em
+}
+
+.bio p {
+    // float: left;
 }
 
 /* Contact Modal */
