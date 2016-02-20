@@ -220,6 +220,50 @@ audio {
     color: $secondary-color;
 }
 
+/* Installation Page */
+
+#binary-translate {
+    margin-bottom: 4em;
+}
+
+#binary-translate h2, h3 {
+    color: $medium-gray;
+    font-weight: 700;
+}
+#binary-translate h2 {
+    font-size: 1.2em;
+}
+#binary-translate h3 {
+    color: #f4cc6e;
+    font-size: 1em;
+    margin-top: 1.1em;
+}
+
+#binary-translate p {
+  padding-left: 22px ;
+  text-indent: -22px ;
+  margin: 0;
+}
+
+#binary-translate .space-above {
+    margin-top: .8em;
+}
+
+/* Maintenance Page */
+
+.maintenance {
+    padding-top: 6em;
+}
+
+.maintenance h5 {
+    text-align: center;
+    margin-top: -1em;
+}
+
+.maintenance img {
+    margin-top: 6em;
+}
+
 /* Footer */
 
 .wrapper {
