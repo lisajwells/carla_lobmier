@@ -22,7 +22,8 @@ var PATHS = {
     'src/assets/**/*',
     '!src/assets/{img,js,scss}/**/*',
     'src/assets/php/*.php~', // 37707-use-foundation-with-php-files
-    'src/assets/audio/*.mp3' // 
+    'src/assets/audio/*.mp3', // 
+    'src/assets/pdf/*.pdf' // 
   ],
   sass: [
     'bower_components/foundation-sites/scss',
