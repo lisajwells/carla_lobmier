@@ -1,8 +1,8 @@
 #main-nav {
-    font-family: 'Merriweather Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Merriweather Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   float: right;
-    margin-top: 1em;
-    text-align: right;
+  margin-top: 1em;
+  text-align: right;
 }
 
 /*** hamburger ***/
@@ -18,6 +18,7 @@
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+
 /* hamburger icon */
 .main-menu-btn-icon, .main-menu-btn-icon:before, .main-menu-btn-icon:after {
   position: absolute;
@@ -29,16 +30,19 @@
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
+
 .main-menu-btn-icon:before {
   content: '';
   top: -7px;
   left: 0;
 }
+
 .main-menu-btn-icon:after {
   content: '';
   top: 7px;
   left: 0;
 }
+
 /* x icon */
 #main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon {
   height: 0;
@@ -117,7 +121,7 @@
 
 /*** desktop menu ***/
 
-@media (min-width: 768px) {
+@media (min-width: 768px) { /*browser style*/
 
   .sm-mint a span.sub-arrow {
     // position: absolute;
@@ -147,6 +151,9 @@
     #main-nav a.highlighted {
       color: $black;
     }
+    #main-nav a.highlighted.has-submenu {
+      color: $white;
+    }
 
     .sm-mint a.highlighted span.sub-arrow {
       border-color: $black transparent transparent transparent;
@@ -162,7 +169,7 @@
 
 } /* end min768 */
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 64em) { /*1024px*/
   #main-nav {
       padding-right: 5em;
   }
