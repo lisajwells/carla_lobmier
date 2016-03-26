@@ -146,6 +146,11 @@
 
     #main-nav a {
       color: $white;
+      height: 43px;
+      // border-bottom: 4px solid $black;
+    }
+    #main-nav a.has-submenu {
+      border-bottom: none;
     }
 
     #main-nav a.highlighted {
@@ -153,10 +158,13 @@
     }
     #main-nav a:hover {
       color: $black;
+      border-bottom: 4px solid $darker-gray;
     }
-    // #main-nav a.highlighted.has-submenu {
-    //   color: $white;
-    // }
+    #main-nav a.has-submenu:hover {
+      border-bottom: blue;
+    }
+
+
 
     .sm-mint a.highlighted span.sub-arrow {
       border-color: $black transparent transparent transparent;
