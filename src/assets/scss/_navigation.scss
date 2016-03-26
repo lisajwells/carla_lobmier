@@ -146,11 +146,10 @@
 
     #main-nav a {
       color: $white;
-      height: 43px;
       // border-bottom: 4px solid $black;
     }
-    #main-nav a.has-submenu {
-      border-bottom: none;
+    #main-nav .top-level>a {
+      height: 43px;
     }
 
     #main-nav a.highlighted {
