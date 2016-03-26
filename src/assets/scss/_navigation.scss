@@ -151,9 +151,12 @@
     #main-nav a.highlighted {
       color: $black;
     }
-    #main-nav a.highlighted.has-submenu {
-      color: $white;
+    #main-nav a:hover {
+      color: $black;
     }
+    // #main-nav a.highlighted.has-submenu {
+    //   color: $white;
+    // }
 
     .sm-mint a.highlighted span.sub-arrow {
       border-color: $black transparent transparent transparent;
