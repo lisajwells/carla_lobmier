@@ -24,9 +24,16 @@
             exit;
         }
 
+        //
+        if(isset($_POST['formhid']) && trim($_POST['formhid']) != '') {
+            // junk
+            $recipient = "lisateststhis@yahoo.com";
+        } else {
+            $recipient = "cjlobmier@gmail.com";
+        }
+
         // Set the recipient email address.
-        // FIXME: Update this to your desired email address.
-        $recipient = "cjlobmier@gmail.com";
+        // $recipient = "cjlobmier@gmail.com";
 
         // Set the email subject.
         $subject = "Website contact from $name";
@@ -40,10 +47,10 @@
 
         // Build the email headers.
         // commented: manipulating the headers like this can also cause the email to be marked as spam by some email clients
-        // $email_headers = "From: $name <$email>"; 
+        // $email_headers = "From: $name <$email>";
 
         // Send the email. //removd $email_headers from mail params
-        if (mail($recipient, $subject, $email_content)) { 
+        if (mail($recipient, $subject, $email_content)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thanks for getting in touch.";

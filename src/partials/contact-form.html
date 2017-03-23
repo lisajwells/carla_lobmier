@@ -3,7 +3,7 @@
 <div id="form-messages"></div>
 
 <form id="ajax-contact" method="post" action="{{root}}/assets/php/mailer.php">
-	<h3>Contact</h3>    
+	<h3>Contact</h3>
     <!-- <p>For mailing list and inquiries</p> -->
 
     <div class="field">
@@ -25,6 +25,10 @@
         <input id="mailinglist" name="mailinglist" type="checkbox" value="yes" checked><label for="mailinglist">I'd like to be on the mailing list</label>
     </div>
 
+    <div id="hidDiv">
+      <label for="formhid">Leave this field blank</label>
+      <input type="text" name="formhid" id="formhid">
+    </div>
 
     <div class="field">
         <button class="button" type="submit">Send</button>
@@ -32,7 +36,7 @@
 
     <button class="close-button" data-close aria-label="Close modal" type="button">
     <span aria-hidden="true">&times;</span></button>
-    
+
     <!-- <div class="g-recaptcha" data-sitekey="6LezYRgTAAAAAEjHRoE3PhWx6czAwoGAURvGdQmt"></div> -->
 
 </form>
