@@ -173,8 +173,24 @@
       display: inline-block;
     }
 
+    .sm-mint ul {
+      padding-bottom: 14px;
+    }
+
     .sm-mint a.highlighted {
       background-color: $secondary-color;
+    }
+
+    li.menu-third-level {
+      background-color: darken($darker-gray, 8%);
+      border-left: 3px $secondary-color solid;
+      margin-left: 21px;
+      // margin-right: 21px;
+    }
+
+    li.menu-third-level a,
+    li.menu-third-level a:hover {
+      padding-left: 10px;
     }
 
 } /* end min768 */
