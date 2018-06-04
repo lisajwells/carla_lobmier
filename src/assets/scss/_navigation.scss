@@ -83,7 +83,6 @@
 }
 /*** end hamburger ***/
 
-
 #main-nav ul {
     background: $darker-gray;
     border-bottom: none;
@@ -97,6 +96,14 @@
 #main-nav ul a.top-level:hover,
 #main-nav ul a.highlighted {
   background: $secondary-color;
+}
+
+#main-nav ul li {
+    border-top-color: darken($darker-gray, 20%);
+}
+
+#main-nav ul li a {
+    border-left: 0;
 }
 
 #main-nav a {
