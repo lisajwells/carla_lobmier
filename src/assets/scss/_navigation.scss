@@ -143,6 +143,27 @@ li.menu-third-level:before {
     // border-radius: 4px;
 }
 
+/* scrolling confluence navigation */
+
+.scrolling-nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: .8em;
+  margin-bottom: 4rem;
+}
+
+.scrolling-nav a span {
+  color: $dark-gray;
+}
+
+.scrolling-next {
+  text-align: right;
+  margin-left: 14px;
+}
+.scrolling-prev {
+  margin-right: 14px;
+}
+
 /*** desktop menu ***/
 
 @media (min-width: 768px) { /*browser style*/
