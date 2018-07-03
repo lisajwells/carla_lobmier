@@ -263,6 +263,12 @@ audio {
     margin-top: .8em;
 }
 
+/* Flipbook */
+.df-lightbox-wrapper,
+.df-container {
+  background-color: rgba(0, 0, 0, .5) !important;
+}
+
 /* Maintenance Page */
 
 .maintenance {

@@ -64,21 +64,21 @@ $(document).ready(function() {
 	  }
 	});
 
-    $(function () {
-
-        var pdf = 'assets/pdf/1211_GID_ISSUU.pdf';
-
-        var options = {
-            height: "90vh",
-            duration: 800,
-            backgroundColor: "#0a0a0a",
-            enableDownload: false,
-            scrollWheel: false
-        };
-
-        var flipBook = $("#flipbookContainer2").flipBook(pdf, options);
-
-    });
+    // $(function () {
+    //
+    //     var pdf = 'assets/pdf/1211_GID_ISSUU.pdf';
+    //
+    //     var options = {
+    //         height: "90vh",
+    //         duration: 800,
+    //         backgroundColor: "#0a0a0a",
+    //         enableDownload: false,
+    //         scrollWheel: false
+    //     };
+    //
+    //     var flipBook = $("#flipbookContainer").flipBook(pdf, options);
+    //
+    // });
 
 
 	
