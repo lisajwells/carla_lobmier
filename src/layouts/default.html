@@ -36,14 +36,15 @@
     </div> <!-- wrapper -->
 
     {{> footer}}
-
     <script src="{{root}}assets/js/app.js"></script>
 
-    <!-- Flipbook jQuery 1.9.1 or above -->
-    <!--<script src="{{root}}assets/dflip/js/libs/jquery.min.js" type="text/javascript"></script>-->
+    {{#ifpage 'grace-in-dwelling'}}
+        <!-- Flipbook jQuery 1.9.1 or above -->
+        <!--<script src="{{root}}assets/dflip/js/libs/jquery.min.js" type="text/javascript"></script>-->
 
-    <!-- Flipbook main Js file -->
-    <script src="{{root}}assets/dflip/js/dflip.min.js" type="text/javascript"></script>
+        <!-- Flipbook main Js file -->
+        <script src="{{root}}assets/dflip/js/dflip.min.js" type="text/javascript"></script>
+    {{/ifpage}}
 
 </body>
 </html>
