@@ -1,24 +1,31 @@
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico"/>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- Flipbook StyleSheet -->
+    <link href="{{root}}assets/dflip/css/dflip.css" rel="stylesheet" type="text/css">
+
+    <!-- Flipbook Icons Stylesheet -->
+    <link href="{{root}}assets/dflip/css/themify-icons.css" rel="stylesheet" type="text/css">
+
     <title>Carla Lobmier</title>
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
     <!-- <script src='https://www.google.com/recaptcha/api.js'></script></head> -->
     <!-- facebook -->
-    <meta property="og:site_name" content="Carla Lobmier" />
-    <meta property="fb:app_id" content="634142856742863" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Carla Lobmier" />
-    <meta property="og:image" content="http://carlalobmier.com/assets/img/01_home/01_Sensibility_homepage_01.jpg" />
-    <meta property="og:url" content="http://carlalobmier.com/" />
-    
+    <meta property="og:site_name" content="Carla Lobmier"/>
+    <meta property="fb:app_id" content="634142856742863"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Carla Lobmier"/>
+    <meta property="og:image" content="http://carlalobmier.com/assets/img/01_home/01_Sensibility_homepage_01.jpg"/>
+    <meta property="og:url" content="http://carlalobmier.com/"/>
+
 <body>
-    <div class="wrapper"> <!-- this is to make sticky footer work -->
+<div class="wrapper"> <!-- this is to make sticky footer work -->
 
     {{> header}}
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
@@ -26,10 +33,29 @@
 
     <div class="push"></div> <!-- this is to push sticky footer -->
 
-    </div> <!-- wrapper -->
+</div> <!-- wrapper -->
 
-    {{> footer}}
+{{> footer}}
+<script src="{{root}}assets/js/app.js"></script>
 
-    <script src="{{root}}assets/js/app.js"></script>
+{{#ifpage 'grace-in-dwelling'}}
+<!-- Flipbook jQuery 1.9.1 or above -->
+<!--<script src="{{root}}assets/dflip/js/libs/jquery.min.js" type="text/javascript"></script>-->
+
+<!-- Flipbook main Js file -->
+<script src="{{root}}assets/dflip/js/dflip.min.js" type="text/javascript"></script>
+
+<script>var option_df_manual_thumb = {
+    scrollWheel: false,
+    overwritePDFOutline: true,
+    pageMode: DFLIP.PAGE_MODE.DOUBLE
+};</script>
+<script>var option_df_manual_custom = {
+    scrollWheel: false,
+    overwritePDFOutline: true,
+    pageMode: DFLIP.PAGE_MODE.DOUBLE
+};</script>
+{{/ifpage}}
+
 </body>
 </html>
