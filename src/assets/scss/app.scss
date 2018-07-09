@@ -265,10 +265,16 @@ audio {
 }
 
 /* Flipbook */
+.flipbook-intro {
+  border-top: 1px solid #313131;
+  text-align : center;
+  padding-top : 30px;
+}
+
 #df_manual_thumb {
   display : block;
-  margin  : 30px 0 30px;
   height  : 360px;
+  margin  : 30px auto 30px;
   width   : 285px;
 }
 
