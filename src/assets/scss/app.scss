@@ -271,6 +271,14 @@ audio {
   padding-top : 30px;
 }
 
+.flipbook-purchase {
+  text-align: center;
+}
+
+.flipbook-purchase:last-of-type {
+  margin-bottom : 4em;
+}
+
 #df_manual_thumb {
   display : block;
   height  : 360px;
