@@ -82,6 +82,15 @@ a:hover, a:focus {
   margin-bottom : 8em;
 }
 
+.triptych .inner-row {
+  margin: 0;
+}
+
+// this is the default, but was overridden
+.triptych .inner-row .small-offset-2 {
+    margin-left: 16.66667%;
+}
+
 .triptych-single-caption .painting-vert,
 .triptych-single-caption .painting-horz {
   margin : 4rem auto 0;
