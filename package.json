@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Official ZURB Template for Foundation for Sites.",
   "main": "gulpfile.js",
+  "engines": {
+    "node": "~12",
+    "npm": "~6"
+  },
   "scripts": {
     "start": "gulp",
     "build": "gulp build --production"
