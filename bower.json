@@ -17,7 +17,8 @@
   "dependencies": {
     "foundation-sites": "~6.1.0",
     "motion-ui": "~1.1.0",
-    "smartmenus": "^1.1.1"
+    "smartmenus": "^1.1.1",
+    "jquery_lazyload": "^1.9.1"
   },
   "private": true
 }
