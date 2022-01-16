@@ -230,9 +230,11 @@ audio {
 }
 
 p.photocredit {
-  font-size: 11px;
+  font-size: 10px;
   margin-top: 9px;
   text-align: right;
+  letter-spacing: 0.3px;
+  color: #e6e6e6;
 }
 
 @media screen and (max-width: 639px) {
